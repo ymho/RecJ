@@ -13,6 +13,13 @@
 		C9F9E31D2887F37300446CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F9E31B2887F37300446CB4 /* Main.storyboard */; };
 		C9F9E31F2887F37600446CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F9E31E2887F37600446CB4 /* Assets.xcassets */; };
 		C9F9E3222887F37600446CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F9E3202887F37600446CB4 /* LaunchScreen.storyboard */; };
+		C9F9E32C2887F64000446CB4 /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E32B2887F64000446CB4 /* VisionObjectRecognitionViewController.swift */; };
+		C9F9E32E2887F66500446CB4 /* tomare-sidewalk.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E32D2887F66500446CB4 /* tomare-sidewalk.mlkitmodel */; };
+		C9F9E3312887F67F00446CB4 /* iPhone11Pro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F9E3302887F67F00446CB4 /* iPhone11Pro.storyboard */; };
+		C9F9E3332887FDE500446CB4 /* iPhone11.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F9E3322887FDE500446CB4 /* iPhone11.storyboard */; };
+		C9F9E3352887FFCA00446CB4 /* kyoto-univ Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9F9E3342887FFCA00446CB4 /* kyoto-univ Logo.jpeg */; };
+		C9F9E337288801A100446CB4 /* bicycle_helmet_cap.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F9E336288801A000446CB4 /* bicycle_helmet_cap.png */; };
+		C9F9E3392888721600446CB4 /* hitogomi-sidewalk-tomare.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E3382888721600446CB4 /* hitogomi-sidewalk-tomare.mlkitmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,16 @@
 		C9F9E31E2887F37600446CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F9E3212887F37600446CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9F9E3232887F37600446CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F9E32B2887F64000446CB4 /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		C9F9E32D2887F66500446CB4 /* tomare-sidewalk.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "tomare-sidewalk.mlkitmodel"; path = "../Desktop/tomare-sidewalk.mlkitmodel"; sourceTree = "<group>"; };
+		C9F9E32F2887F66A00446CB4 /* tomare-sidewalk.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "tomare-sidewalk.mlkitmodel"; sourceTree = "<group>"; };
+		C9F9E3302887F67F00446CB4 /* iPhone11Pro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone11Pro.storyboard; sourceTree = "<group>"; };
+		C9F9E3322887FDE500446CB4 /* iPhone11.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone11.storyboard; sourceTree = "<group>"; };
+		C9F9E3342887FFCA00446CB4 /* kyoto-univ Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "kyoto-univ Logo.jpeg"; path = "../Desktop/kyoto-univ Logo.jpeg"; sourceTree = "<group>"; };
+		C9F9E336288801A000446CB4 /* bicycle_helmet_cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bicycle_helmet_cap.png; path = ../Desktop/bicycle_helmet_cap.png; sourceTree = "<group>"; };
+		C9F9E3382888721600446CB4 /* hitogomi-sidewalk-tomare.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "hitogomi-sidewalk-tomare.mlkitmodel"; path = "../Desktop/hitogomi-sidewalk-tomare.mlkitmodel"; sourceTree = "<group>"; };
+		C9F9E33A2888721A00446CB4 /* hitogomi-sidewalk-tomare.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "hitogomi-sidewalk-tomare.mlkitmodel"; sourceTree = "<group>"; };
+		C9F9E33B2888F54400446CB4 /* bicycle_helmet_cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicycle_helmet_cap.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +57,10 @@
 		C9F9E3092887F37300446CB4 = {
 			isa = PBXGroup;
 			children = (
+				C9F9E3382888721600446CB4 /* hitogomi-sidewalk-tomare.mlkitmodel */,
+				C9F9E336288801A000446CB4 /* bicycle_helmet_cap.png */,
+				C9F9E3342887FFCA00446CB4 /* kyoto-univ Logo.jpeg */,
+				C9F9E32D2887F66500446CB4 /* tomare-sidewalk.mlkitmodel */,
 				C9F9E3142887F37300446CB4 /* RecJ */,
 				C9F9E3132887F37300446CB4 /* Products */,
 			);
@@ -59,7 +80,13 @@
 				C9F9E3152887F37300446CB4 /* AppDelegate.swift */,
 				C9F9E3172887F37300446CB4 /* SceneDelegate.swift */,
 				C9F9E3192887F37300446CB4 /* ViewController.swift */,
+				C9F9E32B2887F64000446CB4 /* VisionObjectRecognitionViewController.swift */,
+				C9F9E32F2887F66A00446CB4 /* tomare-sidewalk.mlkitmodel */,
+				C9F9E33A2888721A00446CB4 /* hitogomi-sidewalk-tomare.mlkitmodel */,
+				C9F9E33B2888F54400446CB4 /* bicycle_helmet_cap.png */,
 				C9F9E31B2887F37300446CB4 /* Main.storyboard */,
+				C9F9E3302887F67F00446CB4 /* iPhone11Pro.storyboard */,
+				C9F9E3322887FDE500446CB4 /* iPhone11.storyboard */,
 				C9F9E31E2887F37600446CB4 /* Assets.xcassets */,
 				C9F9E3202887F37600446CB4 /* LaunchScreen.storyboard */,
 				C9F9E3232887F37600446CB4 /* Info.plist */,
@@ -125,9 +152,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F9E3352887FFCA00446CB4 /* kyoto-univ Logo.jpeg in Resources */,
 				C9F9E3222887F37600446CB4 /* LaunchScreen.storyboard in Resources */,
+				C9F9E337288801A100446CB4 /* bicycle_helmet_cap.png in Resources */,
+				C9F9E3332887FDE500446CB4 /* iPhone11.storyboard in Resources */,
 				C9F9E31F2887F37600446CB4 /* Assets.xcassets in Resources */,
 				C9F9E31D2887F37300446CB4 /* Main.storyboard in Resources */,
+				C9F9E3312887F67F00446CB4 /* iPhone11Pro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F9E31A2887F37300446CB4 /* ViewController.swift in Sources */,
+				C9F9E3392888721600446CB4 /* hitogomi-sidewalk-tomare.mlkitmodel in Sources */,
+				C9F9E32C2887F64000446CB4 /* VisionObjectRecognitionViewController.swift in Sources */,
 				C9F9E3162887F37300446CB4 /* AppDelegate.swift in Sources */,
 				C9F9E3182887F37300446CB4 /* SceneDelegate.swift in Sources */,
+				C9F9E32E2887F66500446CB4 /* tomare-sidewalk.mlkitmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
